@@ -4,9 +4,7 @@ from django.urls import reverse
 
 
 class Topic(models.Model):
-    name = models.CharField(
-        max_length=200,
-    )
+    name = models.CharField(max_length=255)
 
     def __str__(self):
         return self.name
@@ -24,3 +22,13 @@ class Redactor(AbstractUser):
 
     def get_absolute_url(self):
         return reverse("news:redactor_detail", kwargs={"pk": self.pk})
+
+
+class Newspaper(models.Model):
+    title = models.CharField(max_length=255)
+    content = models.TextField()
+    published_date = models.DateTimeField(auto_now_add=True)
+    topic = models.ForeignKey(Topic, on_delete=models.CASCADE, related_name="newspapers")
+    redactors = models.ManyToManyField(Redactor, related_name="newspapers")
+
+
