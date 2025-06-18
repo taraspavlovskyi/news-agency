@@ -1,0 +1,384 @@
+[
+  {
+    "model": "news.topic",
+    "pk": 1,
+    "fields": {"name": "Politics"}
+  },
+  {
+    "model": "news.topic",
+    "pk": 2,
+    "fields": {"name": "Dragons"}
+  },
+  {
+    "model": "news.topic",
+    "pk": 3,
+    "fields": {"name": "Warfare"}
+  },
+  {
+    "model": "news.topic",
+    "pk": 4,
+    "fields": {"name": "Noble Houses"}
+  },
+  {
+    "model": "news.topic",
+    "pk": 5,
+    "fields": {"name": "Magic & Myth"}
+  },
+
+  {
+    "model": "news.redactor",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$fakehash$fakehash",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "eddard",
+      "first_name": "Eddard",
+      "last_name": "Stark",
+      "email": "eddard.stark@winterfell.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-06-01T10:00:00Z",
+      "years_of_experience": 20,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "news.redactor",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$fakehash$fakehash",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "daenerys",
+      "first_name": "Daenerys",
+      "last_name": "Targaryen",
+      "email": "daenerys.targaryen@dragonstone.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-06-01T10:10:00Z",
+      "years_of_experience": 15,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "news.redactor",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$fakehash$fakehash",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "tyrion",
+      "first_name": "Tyrion",
+      "last_name": "Lannister",
+      "email": "tyrion.lannister@casterlyrock.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-06-01T10:20:00Z",
+      "years_of_experience": 18,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "news.redactor",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$fakehash$fakehash",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "arya",
+      "first_name": "Arya",
+      "last_name": "Stark",
+      "email": "arya.stark@winterfell.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-06-01T10:30:00Z",
+      "years_of_experience": 10,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "news.redactor",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$fakehash$fakehash",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "jon",
+      "first_name": "Jon",
+      "last_name": "Snow",
+      "email": "jon.snow@nightswatch.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-06-01T10:40:00Z",
+      "years_of_experience": 12,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "news.redactor",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$fakehash$fakehash",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "cersei",
+      "first_name": "Cersei",
+      "last_name": "Lannister",
+      "email": "cersei.lannister@kingslanding.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-06-01T10:50:00Z",
+      "years_of_experience": 17,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "news.redactor",
+    "pk": 7,
+    "fields": {
+      "password": "pbkdf2_sha256$fakehash$fakehash",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "bran",
+      "first_name": "Bran",
+      "last_name": "Stark",
+      "email": "bran.stark@winterfell.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-06-01T11:00:00Z",
+      "years_of_experience": 14,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "news.redactor",
+    "pk": 8,
+    "fields": {
+      "password": "pbkdf2_sha256$fakehash$fakehash",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "sansa",
+      "first_name": "Sansa",
+      "last_name": "Stark",
+      "email": "sansa.stark@winterfell.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-06-01T11:10:00Z",
+      "years_of_experience": 16,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "news.redactor",
+    "pk": 9,
+    "fields": {
+      "password": "pbkdf2_sha256$fakehash$fakehash",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "hound",
+      "first_name": "Sandor",
+      "last_name": "Clegane",
+      "email": "sandor.clegane@kingslanding.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-06-01T11:20:00Z",
+      "years_of_experience": 11,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "news.redactor",
+    "pk": 10,
+    "fields": {
+      "password": "pbkdf2_sha256$fakehash$fakehash",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "samwell",
+      "first_name": "Samwell",
+      "last_name": "Tarly",
+      "email": "samwell.tarly@nightswatch.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-06-01T11:30:00Z",
+      "years_of_experience": 8,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+
+  {
+    "model": "news.newspaper",
+    "pk": 1,
+    "fields": {
+      "title": "Winterfell Times",
+      "content": "The premier newspaper covering news from the North.",
+      "published_date": "2025-01-01T10:00:00Z",
+      "topic": 1,
+      "redactors": [1, 4, 8]
+    }
+  },
+  {
+    "model": "news.newspaper",
+    "pk": 2,
+    "fields": {
+      "title": "Dragonstone Daily",
+      "content": "Hot news from Dragonstone and the East.",
+      "published_date": "2025-01-02T10:00:00Z",
+      "topic": 2,
+      "redactors": [2, 3]
+    }
+  },
+  {
+    "model": "news.newspaper",
+    "pk": 3,
+    "fields": {
+      "title": "Casterly Rock Chronicle",
+      "content": "News from the Westerlands and Lannister affairs.",
+      "published_date": "2025-01-03T10:00:00Z",
+      "topic": 4,
+      "redactors": [3, 6]
+    }
+  },
+  {
+    "model": "news.newspaper",
+    "pk": 4,
+    "fields": {
+      "title": "King's Landing Gazette",
+      "content": "Capital’s main newspaper covering politics and intrigue.",
+      "published_date": "2025-01-04T10:00:00Z",
+      "topic": 1,
+      "redactors": [6, 9]
+    }
+  },
+  {
+    "model": "news.newspaper",
+    "pk": 5,
+    "fields": {
+      "title": "North Watch News",
+      "content": "Reports from the Night’s Watch.",
+      "published_date": "2025-01-05T10:00:00Z",
+      "topic": 3,
+      "redactors": [5, 10]
+    }
+  },
+  {
+    "model": "news.newspaper",
+    "pk": 6,
+    "fields": {
+      "title": "Riverrun Report",
+      "content": "News from the Riverlands.",
+      "published_date": "2025-01-06T10:00:00Z",
+      "topic": 4,
+      "redactors": [8]
+    }
+  },
+  {
+    "model": "news.newspaper",
+    "pk": 7,
+    "fields": {
+      "title": "Storm's End Sentinel",
+      "content": "Updates from the Stormlands.",
+      "published_date": "2025-01-07T10:00:00Z",
+      "topic": 3,
+      "redactors": [7]
+    }
+  },
+  {
+    "model": "news.newspaper",
+    "pk": 8,
+    "fields": {
+      "title": "Highgarden Herald",
+      "content": "News about the Reach and its lords.",
+      "published_date": "2025-01-08T10:00:00Z",
+      "topic": 4,
+      "redactors": [9]
+    }
+  },
+  {
+    "model": "news.newspaper",
+    "pk": 9,
+    "fields": {
+      "title": "Dorne Daily",
+      "content": "Reports from the southernmost kingdom.",
+      "published_date": "2025-01-09T10:00:00Z",
+      "topic": 5,
+      "redactors": [10]
+    }
+  },
+  {
+    "model": "news.newspaper",
+    "pk": 10,
+    "fields": {
+      "title": "Vale Voice",
+      "content": "News from the Vale of Arryn.",
+      "published_date": "2025-01-10T10:00:00Z",
+      "topic": 1,
+      "redactors": [4]
+    }
+  },
+  {
+    "model": "news.newspaper",
+    "pk": 11,
+    "fields": {
+      "title": "Iron Islands Informer",
+      "content": "Updates from the Iron Islands.",
+      "published_date": "2025-01-11T10:00:00Z",
+      "topic": 2,
+      "redactors": [2, 9]
+    }
+  },
+  {
+    "model": "news.newspaper",
+    "pk": 12,
+    "fields": {
+      "title": "Free Cities Chronicle",
+      "content": "News from Essos Free Cities.",
+      "published_date": "2025-01-12T10:00:00Z",
+      "topic": 4,
+      "redactors": [3, 6]
+    }
+  },
+  {
+    "model": "news.newspaper",
+    "pk": 13,
+    "fields": {
+      "title": "King's Road Courier",
+      "content": "Reports along the King's Road.",
+      "published_date": "2025-01-13T10:00:00Z",
+      "topic": 1,
+      "redactors": [1]
+    }
+  },
+  {
+    "model": "news.newspaper",
+    "pk": 14,
+    "fields": {
+      "title": "Winter Isles Weekly",
+      "content": "News from the far North.",
+      "published_date": "2025-01-14T10:00:00Z",
+      "topic": 5,
+      "redactors": [5]
+    }
+  },
+  {
+    "model": "news.newspaper",
+    "pk": 15,
+    "fields": {
+      "title": "Shadow Tower Sentinel",
+      "content": "News from the Wall and Shadow Tower.",
+      "published_date": "2025-01-15T10:00:00Z",
+      "topic": 3,
+      "redactors": [10]
+    }
+  }
+]
